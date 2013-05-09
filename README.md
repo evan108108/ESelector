@@ -3,7 +3,9 @@ Reduces annoying need to check if model attributes and relations are empty/null/
 
 ## Install
 
-1. Attach the ESelectorBehavior to your model or base model
+1. Place ESelector in your extensions directory
+
+2. Attach the ESelectorBehavior to your model or base model
 
 ```php
 public function behaviors()
