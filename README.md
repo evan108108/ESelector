@@ -9,7 +9,7 @@ Reduces annoying need to check if model attributes and relations are empty/null/
 public function behaviors()
 {
 	return array(
-		'ESelectorBehavior'=>'ext.Scalar.ESelectorBehavior',
+		'ESelectorBehavior'=>'ext.Selector.ESelectorBehavior',
 	);
 }
 ```
