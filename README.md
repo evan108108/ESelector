@@ -1,6 +1,19 @@
 # ESelector
 Reduces annoying need to check if model attributes and relations are empty/null/undefined.
 
+## Install
+
+1. Attach the ESelectorBehavior to your model or base model
+
+```php
+public function behaviors()
+{
+	return array(
+		'ESelectorBehavior'=>'ext.Scalar.ESelectorBehavior',
+	);
+}
+```
+
 ##Examples
 
 ```php
