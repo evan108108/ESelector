@@ -7,7 +7,7 @@ Reduces annoying need to check if model attributes and relations are empty/null/
 echo $model->selector('title', 'NO TITLE'); 
 ```
 The above is equivalent to:
-```
+```php
 if( empty($model->title) ) {
 	echo 'NO TITLE';
 } else {
@@ -22,7 +22,7 @@ echo $model->selector('contact.address.city', 'No City');
 ```
 
 The above is equivalent to:
-```
+```php
 if( !is_null($model->contact) && !empty($model->contact->fullname) ) {
 	echo $model->contact->fullname)
 } else {
